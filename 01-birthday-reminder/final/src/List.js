@@ -1,11 +1,13 @@
 import React from 'react';
 
 const List = ({ people }) => {
+
   return (
     <>
       {people.map((person)=> {
         const { id, name ,email} = person;
         return (
+         
           <article key={id} className='person'>
             <img src={`https://ui-avatars.com/api/?name=${name}`} alt={name} />
             <div>
@@ -13,6 +15,7 @@ const List = ({ people }) => {
               <p>{email} </p>
             </div>
           </article>
+         
         );
       })}
     </>
