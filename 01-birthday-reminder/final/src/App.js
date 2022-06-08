@@ -16,6 +16,7 @@ function App() {
 
   },[])
   return (
+    <>
     <main>
       <section className='container'>
         <h3>{people.length} Birthdays today</h3>
@@ -23,6 +24,9 @@ function App() {
         <button onClick={() => setPeople([])}>clear all</button>
       </section>
     </main>
+
+    <h6 className='credits'> Made by Sameed (forked from repo by John Smilga)</h6>
+    </>
   )
 }
 
