@@ -195,3 +195,8 @@ main {
   outline: 1px solid rgba(242, 138, 178, 0.8);
   cursor: pointer;
 }
+
+.credits {
+  text-align: center;
+  margin-top: 2rem;
+}
