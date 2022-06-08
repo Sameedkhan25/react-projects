@@ -3,7 +3,6 @@ import List from './List'
 function App() {
   const [people, setPeople] = useState([])
   useEffect(() => {
-    debugger
     //fetch data from api
     const fetchUsers=async()=>{
      await fetch('https://jsonplaceholder.typicode.com/users')
